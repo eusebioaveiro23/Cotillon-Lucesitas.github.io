@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es-PY">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Productos | Cotillón Lucesitas</title>
+<meta name="description" content="Catálogo de cotillón, globos, decoración, velas, guirnaldas, souvenirs y regalos de Lucesitas. Consultá precios y disponibilidad por WhatsApp.">
+<meta property="og:title" content="Productos | Cotillón Lucesitas">
+<meta property="og:description" content="Encontrá todo lo que necesitás para hacer de tu celebración un momento especial.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/images/logo.png">
+<link rel="icon" href="assets/images/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="navbar" data-navbar>
+  <div class="container navbar__inner">
+    <a href="index.html" class="navbar__brand">
+      <img src="assets/images/logo.png" alt="Logotipo de Lucesitas" width="46" height="46">
+      <span class="navbar__brand-text">
+        <span class="navbar__brand-name">Lucesitas</span>
+        <span class="navbar__brand-tag">Fiestas &amp; Fantasías</span>
+      </span>
+    </a>
+    <nav class="navbar__links" data-nav-links aria-label="Navegación principal" id="menu-principal">
+      <a href="index.html">Inicio</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="productos.html">Productos</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="galeria.html">Galería</a>
+      <a href="contacto.html">Contacto</a>
+      <div class="navbar__cta mobile-only">
+        <a href="#" class="btn btn-whatsapp btn-sm btn-block" data-whatsapp><span aria-hidden="true">📲</span> WhatsApp</a>
+      </div>
+    </nav>
+    <div class="navbar__cta desktop-only">
+      <a href="#" class="btn btn-whatsapp btn-sm" data-whatsapp aria-label="Consultar por WhatsApp"><span aria-hidden="true">📲</span> Consultar</a>
+    </div>
+    <button class="navbar__toggle" data-nav-toggle aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-principal">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Inicio</a> / Productos</p>
+      <span class="eyebrow">Catálogo</span>
+      <h1>Nuestros productos</h1>
+      <p>Encontrá todo lo que necesitás para hacer de tu celebración un momento especial.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="filter-bar" role="tablist" aria-label="Filtrar productos por categoría">
+        <button class="filter-btn is-active" data-filter="todos">Todos</button>
+        <button class="filter-btn" data-filter="cumpleanos">Cumpleaños</button>
+        <button class="filter-btn" data-filter="globos">Globos</button>
+        <button class="filter-btn" data-filter="decoracion">Decoración</button>
+        <button class="filter-btn" data-filter="velas">Velas</button>
+        <button class="filter-btn" data-filter="guirnaldas">Guirnaldas</button>
+        <button class="filter-btn" data-filter="souvenirs">Souvenirs</button>
+        <button class="filter-btn" data-filter="accesorios">Accesorios</button>
+        <button class="filter-btn" data-filter="regalos">Regalos</button>
+      </div>
+
+      <p class="placeholder-note text-center" style="display:block; text-align:center; margin: 0 auto var(--space-md); width: fit-content;">Catálogo de ejemplo — nombres, precios e imágenes fácilmente editables.</p>
+
+      <div class="grid grid--4" id="cumpleanos">
+
+        <article class="product-card card" data-category="cumpleanos">
+          <div class="product-card__media"><span class="product-card__badge">Más vendido</span><img src="assets/images/illus-prod-torta.svg" alt="Kit topper de torta"></div>
+          <div class="product-card__body">
+            <span class="product-card__category">Cumpleaños</span>
+            <h3>Kit topper de torta</h3>
+            <p>Topper personalizable con nombre y edad.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">₲ 65.000</span>
+              <a href="#" class="btn btn-outline-gold btn-sm" data-whatsapp-product="Kit topper de torta" data-whatsapp-price="₲ 65.000">Consultar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card card" data-category="cumpleanos">
+          <div class="product-card__media"><img src="assets/images/illus-prod-pinata.svg" alt="Piñata temática"></div>
+          <div class="product-card__body">
+            <span class="product-card__category">Cumpleaños</span>
+            <h3>Piñata temática</h3>
+            <p>Diferentes diseños y tamaños disponibles.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">₲ 120.000</span>
+              <a href="#" class="btn btn-outline-gold btn-sm" data-whatsapp-product="Piñata temática" data-whatsapp-price="₲ 120.000">Consultar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card card" data-category="velas">
+          <div class="product-card__media"><img src="assets/images/illus-prod-velas.svg" alt="Set de velas decorativas"></div>
+          <div class="product-card__body">
+            <span class="product-card__category">Velas</span>
+            <h3>Set de velas decorativas</h3>
+            <p>Colores surtidos para complementar tu torta.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">₲ 22.000</span>
+              <a href="#" class="btn btn-outline-gold btn-sm" data-whatsapp-product="Set de velas decorativas" data-whatsapp-price="₲ 22.000">Consultar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card card" data-category="accesorios">
+          <div class="product-card__media"><img src="assets/images/illus-prod-disfraz.svg" alt="Set de accesorios de fiesta"></div>
+          <div class="product-card__body">
+            <span class="product-card__category">Accesorios</span>
+            <h3>Set de accesorios de fiesta</h3>
+            <p>Coronas, antifaces y gorros para animar la celebración.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">₲ 28.000</span>
+              <a href="#" class="btn btn-outline-gold btn-sm" data-whatsapp-product="Set de accesorios de fiesta" data-whatsapp-price="₲ 28.000">Consultar</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="grid grid--4 mt-lg" id="globos">
+
+        <article class="product-card card" data-category="globos">
+          <div class="product-card__media"><span class="product-card__badge">Más vendido</span><img src="assets/images/illus-prod-arco.svg" alt="Arco de globos premium"></div>
+          <div class="product-card__body">
+            <span class="product-card__category">Globos</span>
+            <h3>Arco de globos premium</h3>
+            <p>Kit completo para armar tu propio arco decorativo.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">₲ 185.000</span>
+              <a href="#" class="btn btn-outline-gold btn-sm" data-whatsapp-product="Arco de globos premium" data-whatsapp-price="₲ 185.000">Consultar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card card" data-category="globos">
+          <div class="product-card__media"><img src="assets/images/illus-prod-globos.svg" alt="Bolsa de globos surtidos"></div>
+          <div class="product-card__body">
+            <span class="product-card__category">Globos</span>
+            <h3>Bolsa de globos surtidos</h3>
+            <p>100 unidades en colores variados.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">₲ 35.000</span>
+              <a href="#" class="btn btn-outline-gold btn-sm" data-whatsapp-product="Bolsa de globos surtidos" data-whatsapp-price="₲ 35.000">Consultar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card card" data-category="decoracion">
+          <div class="product-card__media"><img src="assets/images/illus-cat-decoracion.svg" alt="Kit de decoración temática"></div>
+          <div class="product-card__body">
+            <span class="product-card__category">Decoración</span>
+            <h3>Kit de decoración temática</h3>
+            <p>Ambientación completa según el tema elegido.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">₲ 150.000</span>
+              <a href="#" class="btn btn-outline-gold btn-sm" data-whatsapp-product="Kit de decoración temática" data-whatsapp-price="₲ 150.000">Consultar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card card" data-category="decoracion">
+          <div class="product-card__media"><img src="assets/images/illus-prod-mesa.svg" alt="Set de mesa temática"></div>
+          <div class="product-card__body">
+            <span class="product-card__category">Decoración</span>
+            <h3>Set de mesa temática</h3>
+            <p>Manteles, platos y vasos a juego.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">₲ 98.000</span>
+              <a href="#" class="btn btn-outline-gold btn-sm" data-whatsapp-product="Set de mesa temática" data-whatsapp-price="₲ 98.000">Consultar</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="grid grid--4 mt-lg" id="graduaciones">
+
+        <article class="product-card card" data-category="guirnaldas">
+          <div class="product-card__media"><img src="assets/images/illus-prod-guirnalda.svg" alt="Guirnalda de banderines"></div>
+          <div class="product-card__body">
+            <span class="product-card__category">Guirnaldas</span>
+            <h3>Guirnalda de banderines</h3>
+            <p>Ideal para mesas, salones y espacios de fotos.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">₲ 38.000</span>
+              <a href="#" class="btn btn-outline-gold btn-sm" data-whatsapp-product="Guirnalda de banderines" data-whatsapp-price="₲ 38.000">Consultar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card card" data-category="souvenirs">
+          <div class="product-card__media"><img src="assets/images/illus-prod-souvenir.svg" alt="Souvenirs personalizados"></div>
+          <div class="product-card__body">
+            <span class="product-card__category">Souvenirs</span>
+            <h3>Souvenirs personalizados</h3>
+            <p>Detalles a medida para agradecer a tus invitados.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">₲ 12.000</span>
+              <a href="#" class="btn btn-outline-gold btn-sm" data-whatsapp-product="Souvenirs personalizados" data-whatsapp-price="₲ 12.000">Consultar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card card" data-category="regalos">
+          <div class="product-card__media"><img src="assets/images/illus-prod-regalo.svg" alt="Caja de regalo personalizada"></div>
+          <div class="product-card__body">
+            <span class="product-card__category">Regalos</span>
+            <h3>Caja de regalo personalizada</h3>
+            <p>Presentación especial para souvenirs y detalles.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">₲ 45.000</span>
+              <a href="#" class="btn btn-outline-gold btn-sm" data-whatsapp-product="Caja de regalo personalizada" data-whatsapp-price="₲ 45.000">Consultar</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card card" data-category="regalos">
+          <div class="product-card__media"><img src="assets/images/illus-prod-personalizado.svg" alt="Cartel personalizado"></div>
+          <div class="product-card__body">
+            <span class="product-card__category">Regalos</span>
+            <h3>Cartel personalizado</h3>
+            <p>Nombres, frases o números a medida para tu evento.</p>
+            <div class="product-card__footer">
+              <span class="product-card__price">₲ 55.000</span>
+              <a href="#" class="btn btn-outline-gold btn-sm" data-whatsapp-product="Cartel personalizado" data-whatsapp-price="₲ 55.000">Consultar</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Anclas ocultas para categorías adicionales del menú (bodas, baby shower, halloween, navidad) -->
+      <div id="bodas" aria-hidden="true"></div>
+      <div id="babyshower" aria-hidden="true"></div>
+      <div id="halloween" aria-hidden="true"></div>
+      <div id="navidad" aria-hidden="true"></div>
+
+      <!-- CATÁLOGO DESCARGABLE -->
+      <div class="cta-final mt-lg">
+        <h2>¿Preferís ver todo el catálogo junto?</h2>
+        <p>Descargá el catálogo completo en PDF con todos nuestros productos y precios actualizados.</p>
+        <div class="cta-final__actions">
+          <a href="[ENLACE DEL CATÁLOGO]" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Descargar catálogo</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section section--alt">
+    <div class="container text-center">
+      <h2 class="section-title">¿No encontrás lo que buscás?</h2>
+      <p style="max-width:480px; margin: 0 auto 1.4rem;">Contanos qué necesitás y te ayudamos a encontrar la opción ideal para tu evento.</p>
+      <a href="#" class="btn btn-whatsapp" data-whatsapp>Consultar por WhatsApp</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">
+          <img src="assets/images/logo.png" alt="Logotipo de Lucesitas" width="42" height="42">
+          <span class="footer__brand-name">Lucesitas</span>
+        </div>
+        <p>Cotillón, globos, decoración y artículos para fiestas en Paraguay. Creamos momentos felices para cada celebración.</p>
+        <div class="footer__social">
+          <a href="#" data-whatsapp aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">📲</a>
+          <a href="[ENLACE DE INSTAGRAM]" aria-label="Instagram" target="_blank" rel="noopener noreferrer">📷</a>
+          <a href="[ENLACE DE FACEBOOK]" aria-label="Facebook" target="_blank" rel="noopener noreferrer">📘</a>
+          <a href="[ENLACE DE TIKTOK]" aria-label="TikTok" target="_blank" rel="noopener noreferrer">🎵</a>
+        </div>
+      </div>
+      <div>
+        <h4>Enlaces rápidos</h4>
+        <div class="footer__links">
+          <a href="index.html">Inicio</a>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="productos.html">Productos</a>
+          <a href="servicios.html">Servicios</a>
+          <a href="galeria.html">Galería</a>
+        </div>
+      </div>
+      <div>
+        <h4>Productos y servicios</h4>
+        <div class="footer__links">
+          <a href="productos.html#cumpleanos">Cumpleaños</a>
+          <a href="productos.html#globos">Globos</a>
+          <a href="servicios.html">Decoración de eventos</a>
+          <a href="servicios.html">Personalización</a>
+          <a href="contacto.html">Solicitar presupuesto</a>
+        </div>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <div class="footer__links">
+          <a href="tel:+595994315939">📞 (0994) 315 939</a>
+          <a href="mailto:[CORREO ELECTRÓNICO]">✉️ [CORREO ELECTRÓNICO]</a>
+          <span>📍 14 de Mayo entre Moisés Bertoni y Javier Bogarín, Luque</span>
+          <span>🕐 Lun. a Sáb. 8:00 - 18:00 hs</span>
+          <a href="contacto.html#mapa-sitio">Mapa del sitio</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Lucesitas. Todos los derechos reservados.</span>
+      <span>Hecho por [NOMBRE Y APELLIDO DEL ESTUDIANTE] · Trabajo de Extensión – Universidad Americana – 2026</span>
+    </div>
+  </div>
+</footer>
+
+<a href="#" class="whatsapp-float" data-whatsapp aria-label="Consultar por WhatsApp"><span aria-hidden="true">💬</span></a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
