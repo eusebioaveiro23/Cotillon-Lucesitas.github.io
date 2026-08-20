@@ -1,0 +1,14 @@
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="gillus_prod_velas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C46B3"/>
+      <stop offset="100%" stop-color="#221039"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="url(#gillus_prod_velas)"/>
+  <rect x="150" y="150" width="14" height="80" rx="4" fill="#E7C368"/><ellipse cx="157" cy="144" rx="6" ry="10" fill="#FF6F59"/><rect x="190" y="150" width="14" height="80" rx="4" fill="#E7C368"/><ellipse cx="197" cy="144" rx="6" ry="10" fill="#FF6F59"/><rect x="230" y="150" width="14" height="80" rx="4" fill="#E7C368"/><ellipse cx="237" cy="144" rx="6" ry="10" fill="#FF6F59"/><rect x="270" y="150" width="14" height="80" rx="4" fill="#E7C368"/><ellipse cx="277" cy="144" rx="6" ry="10" fill="#FF6F59"/><rect x="310" y="150" width="14" height="80" rx="4" fill="#E7C368"/><ellipse cx="317" cy="144" rx="6" ry="10" fill="#FF6F59"/><circle cx="50" cy="300" r="3" fill="#E7C368" opacity="0.85"/>
+  <circle cx="430" cy="60" r="3" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="430" cy="300" r="3" fill="#FF6F59" opacity="0.85"/>
+  <circle cx="50" cy="60" r="3" fill="#E7C368" opacity="0.85"/>
+  
+</svg>

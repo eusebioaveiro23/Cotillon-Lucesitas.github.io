@@ -1,0 +1,10 @@
+<svg viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="gillus_gallery_decoracion" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E9C88"/>
+      <stop offset="100%" stop-color="#C6952E"/>
+    </linearGradient>
+  </defs>
+  <rect width="340" height="340" fill="url(#gillus_gallery_decoracion)"/>
+  <polygon points="110,110 126,110 118,140" fill="#E7C368"/><polygon points="140,110 156,110 148,140" fill="#FF6F59"/><polygon points="170,110 186,110 178,140" fill="#FFFFFF"/><polygon points="200,110 216,110 208,140" fill="#E7C368"/><polygon points="230,110 246,110 238,140" fill="#FF6F59"/><polygon points="260,110 276,110 268,140" fill="#FFFFFF"/><polygon points="290,110 306,110 298,140" fill="#E7C368"/><polygon points="320,110 336,110 328,140" fill="#FF6F59"/><polygon points="350,110 366,110 358,140" fill="#FFFFFF"/>
+</svg>

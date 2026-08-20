@@ -1,0 +1,12 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="gillus_avatar_1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B1E6B"/>
+      <stop offset="100%" stop-color="#6C46B3"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="url(#gillus_avatar_1)"/>
+  <circle cx="100" cy="80" r="34" fill="#FFFFFF" opacity="0.92"/>
+  <path d="M40 190 Q100 130 160 190 Z" fill="#FFFFFF" opacity="0.92"/>
+  <circle cx="100" cy="80" r="34" fill="none" stroke="#E7C368" stroke-width="4"/>
+</svg>

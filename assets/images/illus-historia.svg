@@ -1,0 +1,22 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="gillus_historia" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C46B3"/>
+      <stop offset="100%" stop-color="#3B1E6B"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#gillus_historia)"/>
+  
+  <ellipse cx="240" cy="170" rx="42" ry="52" fill="#1E9C88"/>
+  <path d="M240 222 Q246 230 240 238 Q234 246 240 254" stroke="#1E9C88" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="235,220 245,220 240,228" fill="#1E9C88"/>
+  <ellipse cx="225.3" cy="149.2" rx="7.56" ry="14.560000000000002" fill="white" opacity="0.35"/>
+  <ellipse cx="560" cy="200" rx="50" ry="62" fill="#E7C368"/>
+  <path d="M560 262 Q566 270 560 278 Q554 286 560 294" stroke="#E7C368" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="555,260 565,260 560,268" fill="#E7C368"/>
+  <ellipse cx="542.5" cy="175.2" rx="9.0" ry="17.360000000000003" fill="white" opacity="0.35"/><circle cx="120" cy="300" r="4" fill="#FF6F59" opacity="0.85"/>
+  <circle cx="650" cy="90" r="3" fill="#E7C368" opacity="0.85"/>
+  <circle cx="400" cy="340" r="3" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="700" cy="320" r="4" fill="#FF6F59" opacity="0.85"/>
+  
+</svg>

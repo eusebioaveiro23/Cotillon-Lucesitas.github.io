@@ -1,0 +1,14 @@
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="gillus_prod_pinata" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C6952E"/>
+      <stop offset="100%" stop-color="#221039"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="url(#gillus_prod_pinata)"/>
+  <polygon points="240,90 300,150 280,220 200,220 180,150" fill="#FF6F59"/><polygon points="240,90 260,140 220,140" fill="#E7C368"/><rect x="236" y="60" width="8" height="34" fill="#221039"/><circle cx="50" cy="300" r="3" fill="#E7C368" opacity="0.85"/>
+  <circle cx="430" cy="60" r="3" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="430" cy="300" r="3" fill="#FF6F59" opacity="0.85"/>
+  <circle cx="50" cy="60" r="3" fill="#E7C368" opacity="0.85"/>
+  
+</svg>

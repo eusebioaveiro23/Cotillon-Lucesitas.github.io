@@ -1,0 +1,38 @@
+<svg viewBox="0 0 480 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="gillus_prod_arco" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#221039"/>
+      <stop offset="100%" stop-color="#3B1E6B"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="360" fill="url(#gillus_prod_arco)"/>
+  
+  <ellipse cx="140" cy="130" rx="30" ry="36" fill="#E7C368"/>
+  <path d="M140 166 Q146 174 140 182 Q134 190 140 198" stroke="#E7C368" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="135,164 145,164 140,172" fill="#E7C368"/>
+  <ellipse cx="129.5" cy="115.6" rx="5.3999999999999995" ry="10.080000000000002" fill="white" opacity="0.35"/>
+  <ellipse cx="200" cy="140" rx="30" ry="36" fill="#FF6F59"/>
+  <path d="M200 176 Q206 184 200 192 Q194 200 200 208" stroke="#FF6F59" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="195,174 205,174 200,182" fill="#FF6F59"/>
+  <ellipse cx="189.5" cy="125.6" rx="5.3999999999999995" ry="10.080000000000002" fill="white" opacity="0.35"/>
+  <ellipse cx="260" cy="130" rx="30" ry="36" fill="#1E9C88"/>
+  <path d="M260 166 Q266 174 260 182 Q254 190 260 198" stroke="#1E9C88" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="255,164 265,164 260,172" fill="#1E9C88"/>
+  <ellipse cx="249.5" cy="115.6" rx="5.3999999999999995" ry="10.080000000000002" fill="white" opacity="0.35"/>
+  <ellipse cx="320" cy="140" rx="30" ry="36" fill="#E7C368"/>
+  <path d="M320 176 Q326 184 320 192 Q314 200 320 208" stroke="#E7C368" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="315,174 325,174 320,182" fill="#E7C368"/>
+  <ellipse cx="309.5" cy="125.6" rx="5.3999999999999995" ry="10.080000000000002" fill="white" opacity="0.35"/>
+  <ellipse cx="380" cy="130" rx="30" ry="36" fill="#FF6F59"/>
+  <path d="M380 166 Q386 174 380 182 Q374 190 380 198" stroke="#FF6F59" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="375,164 385,164 380,172" fill="#FF6F59"/>
+  <ellipse cx="369.5" cy="115.6" rx="5.3999999999999995" ry="10.080000000000002" fill="white" opacity="0.35"/>
+  <ellipse cx="440" cy="140" rx="30" ry="36" fill="#E7C368"/>
+  <path d="M440 176 Q446 184 440 192 Q434 200 440 208" stroke="#E7C368" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="435,174 445,174 440,182" fill="#E7C368"/>
+  <ellipse cx="429.5" cy="125.6" rx="5.3999999999999995" ry="10.080000000000002" fill="white" opacity="0.35"/><circle cx="50" cy="300" r="3" fill="#E7C368" opacity="0.85"/>
+  <circle cx="430" cy="60" r="3" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="430" cy="300" r="3" fill="#FF6F59" opacity="0.85"/>
+  <circle cx="50" cy="60" r="3" fill="#E7C368" opacity="0.85"/>
+  
+</svg>

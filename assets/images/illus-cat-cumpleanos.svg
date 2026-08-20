@@ -1,0 +1,21 @@
+<svg viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="gillus_cat_cumpleanos" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B1E6B"/>
+      <stop offset="100%" stop-color="#6C46B3"/>
+    </linearGradient>
+  </defs>
+  <rect width="340" height="340" fill="url(#gillus_cat_cumpleanos)"/>
+  
+  <ellipse cx="170" cy="130" rx="44" ry="54" fill="#E7C368"/>
+  <path d="M170 184 Q176 192 170 200 Q164 208 170 216" stroke="#E7C368" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="165,182 175,182 170,190" fill="#E7C368"/>
+  <ellipse cx="154.6" cy="108.4" rx="7.92" ry="15.120000000000001" fill="white" opacity="0.35"/>
+  <ellipse cx="230" cy="190" rx="34" ry="42" fill="#FF6F59"/>
+  <path d="M230 232 Q236 240 230 248 Q224 256 230 264" stroke="#FF6F59" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="225,230 235,230 230,238" fill="#FF6F59"/>
+  <ellipse cx="218.1" cy="173.2" rx="6.12" ry="11.760000000000002" fill="white" opacity="0.35"/><circle cx="60" cy="250" r="3" fill="#E7C368" opacity="0.85"/>
+  <circle cx="280" cy="60" r="3" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="280" cy="250" r="3" fill="#FF6F59" opacity="0.85"/>
+  
+</svg>

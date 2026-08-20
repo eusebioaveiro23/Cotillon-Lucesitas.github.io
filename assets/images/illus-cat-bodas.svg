@@ -1,0 +1,21 @@
+<svg viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="gillus_cat_bodas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6C46B3"/>
+      <stop offset="100%" stop-color="#221039"/>
+    </linearGradient>
+  </defs>
+  <rect width="340" height="340" fill="url(#gillus_cat_bodas)"/>
+  
+  <ellipse cx="140" cy="150" rx="34" ry="44" fill="#FFFFFF"/>
+  <path d="M140 194 Q146 202 140 210 Q134 218 140 226" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="135,192 145,192 140,200" fill="#FFFFFF"/>
+  <ellipse cx="128.1" cy="132.4" rx="6.12" ry="12.32" fill="white" opacity="0.35"/>
+  <ellipse cx="200" cy="150" rx="34" ry="44" fill="#E7C368"/>
+  <path d="M200 194 Q206 202 200 210 Q194 218 200 226" stroke="#E7C368" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="195,192 205,192 200,200" fill="#E7C368"/>
+  <ellipse cx="188.1" cy="132.4" rx="6.12" ry="12.32" fill="white" opacity="0.35"/><circle cx="60" cy="250" r="3" fill="#E7C368" opacity="0.85"/>
+  <circle cx="280" cy="60" r="3" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="280" cy="250" r="3" fill="#FF6F59" opacity="0.85"/>
+  
+</svg>

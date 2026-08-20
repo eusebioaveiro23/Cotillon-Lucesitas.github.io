@@ -1,0 +1,21 @@
+<svg viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="gillus_cat_babyshower" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E9C88"/>
+      <stop offset="100%" stop-color="#3B1E6B"/>
+    </linearGradient>
+  </defs>
+  <rect width="340" height="340" fill="url(#gillus_cat_babyshower)"/>
+  
+  <ellipse cx="150" cy="140" rx="44" ry="54" fill="#E7C368"/>
+  <path d="M150 194 Q156 202 150 210 Q144 218 150 226" stroke="#E7C368" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="145,192 155,192 150,200" fill="#E7C368"/>
+  <ellipse cx="134.6" cy="118.4" rx="7.92" ry="15.120000000000001" fill="white" opacity="0.35"/>
+  <ellipse cx="210" cy="190" rx="30" ry="38" fill="#FFFFFF"/>
+  <path d="M210 228 Q216 236 210 244 Q204 252 210 260" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="205,226 215,226 210,234" fill="#FFFFFF"/>
+  <ellipse cx="199.5" cy="174.8" rx="5.3999999999999995" ry="10.64" fill="white" opacity="0.35"/><circle cx="60" cy="250" r="3" fill="#E7C368" opacity="0.85"/>
+  <circle cx="280" cy="60" r="3" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="280" cy="250" r="3" fill="#FF6F59" opacity="0.85"/>
+  
+</svg>

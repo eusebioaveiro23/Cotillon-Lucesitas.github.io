@@ -1,0 +1,13 @@
+<svg viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="gillus_cat_souvenirs" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF6F59"/>
+      <stop offset="100%" stop-color="#221039"/>
+    </linearGradient>
+  </defs>
+  <rect width="340" height="340" fill="url(#gillus_cat_souvenirs)"/>
+  <rect x="120" y="120" width="100" height="80" rx="8" fill="#FFFFFF"/><rect x="120" y="120" width="100" height="18" fill="#E7C368"/><rect x="160" y="120" width="20" height="80" fill="#E7C368"/><circle cx="60" cy="250" r="3" fill="#E7C368" opacity="0.85"/>
+  <circle cx="280" cy="60" r="3" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="280" cy="250" r="3" fill="#FF6F59" opacity="0.85"/>
+  
+</svg>

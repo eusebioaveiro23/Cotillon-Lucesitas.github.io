@@ -1,0 +1,13 @@
+<svg viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="gillus_cat_halloween" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#221039"/>
+      <stop offset="100%" stop-color="#4B2A7A"/>
+    </linearGradient>
+  </defs>
+  <rect width="340" height="340" fill="url(#gillus_cat_halloween)"/>
+  <circle cx="170" cy="150" r="60" fill="#C6952E"/><polygon points="145,140 160,140 150,155" fill="#221039"/><polygon points="180,140 195,140 190,155" fill="#221039"/><path d="M140 175 Q170 195 200 175" stroke="#221039" stroke-width="6" fill="none"/><circle cx="60" cy="250" r="3" fill="#E7C368" opacity="0.85"/>
+  <circle cx="280" cy="60" r="3" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="280" cy="250" r="3" fill="#FF6F59" opacity="0.85"/>
+  
+</svg>

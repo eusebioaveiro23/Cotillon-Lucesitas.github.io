@@ -1,0 +1,25 @@
+<svg viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="gillus_cat_globos" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#221039"/>
+      <stop offset="100%" stop-color="#3B1E6B"/>
+    </linearGradient>
+  </defs>
+  <rect width="340" height="340" fill="url(#gillus_cat_globos)"/>
+  
+  <ellipse cx="120" cy="140" rx="40" ry="50" fill="#E7C368"/>
+  <path d="M120 190 Q126 198 120 206 Q114 214 120 222" stroke="#E7C368" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="115,188 125,188 120,196" fill="#E7C368"/>
+  <ellipse cx="106.0" cy="120.0" rx="7.199999999999999" ry="14.000000000000002" fill="white" opacity="0.35"/>
+  <ellipse cx="190" cy="110" rx="32" ry="40" fill="#FF6F59"/>
+  <path d="M190 150 Q196 158 190 166 Q184 174 190 182" stroke="#FF6F59" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="185,148 195,148 190,156" fill="#FF6F59"/>
+  <ellipse cx="178.8" cy="94.0" rx="5.76" ry="11.200000000000001" fill="white" opacity="0.35"/>
+  <ellipse cx="230" cy="190" rx="36" ry="44" fill="#1E9C88"/>
+  <path d="M230 234 Q236 242 230 250 Q224 258 230 266" stroke="#1E9C88" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="225,232 235,232 230,240" fill="#1E9C88"/>
+  <ellipse cx="217.4" cy="172.4" rx="6.4799999999999995" ry="12.32" fill="white" opacity="0.35"/><circle cx="60" cy="250" r="3" fill="#E7C368" opacity="0.85"/>
+  <circle cx="280" cy="60" r="3" fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="280" cy="250" r="3" fill="#FF6F59" opacity="0.85"/>
+  
+</svg>

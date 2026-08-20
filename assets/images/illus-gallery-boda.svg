@@ -1,0 +1,18 @@
+<svg viewBox="0 0 340 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+  <defs>
+    <linearGradient id="gillus_gallery_boda" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E7C368"/>
+      <stop offset="100%" stop-color="#3B1E6B"/>
+    </linearGradient>
+  </defs>
+  <rect width="340" height="340" fill="url(#gillus_gallery_boda)"/>
+  
+  <ellipse cx="160" cy="140" rx="34" ry="44" fill="#FFFFFF"/>
+  <path d="M160 184 Q166 192 160 200 Q154 208 160 216" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="155,182 165,182 160,190" fill="#FFFFFF"/>
+  <ellipse cx="148.1" cy="122.4" rx="6.12" ry="12.32" fill="white" opacity="0.35"/>
+  <ellipse cx="220" cy="140" rx="34" ry="44" fill="#E7C368"/>
+  <path d="M220 184 Q226 192 220 200 Q214 208 220 216" stroke="#E7C368" stroke-width="2" fill="none" opacity="0.6"/>
+  <polygon points="215,182 225,182 220,190" fill="#E7C368"/>
+  <ellipse cx="208.1" cy="122.4" rx="6.12" ry="12.32" fill="white" opacity="0.35"/>
+</svg>
