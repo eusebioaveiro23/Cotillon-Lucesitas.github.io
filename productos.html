@@ -13,6 +13,15 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Poppins:wght@400;500;600;700&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5BN0Z0P68D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5BN0Z0P68D');
+</script>
 </head>
 <body>
 
@@ -33,8 +42,10 @@
       <a href="galeria.html">Galería</a>
       <a href="contacto.html">Contacto</a>
       <div class="navbar__cta mobile-only">
-        <a href="#" class="btn btn-whatsapp btn-sm btn-block" data-whatsapp><span aria-hidden="true">📲</span> WhatsApp</a>
-      </div>
+    <a href="#" class="btn btn-whatsapp btn-sm btn-block" data-whatsapp>
+        <i class="fab fa-whatsapp" aria-hidden="true"></i> WhatsApp
+    </a>
+</div>
     </nav>
     <div class="navbar__cta desktop-only">
       <a href="#" class="btn btn-whatsapp btn-sm" data-whatsapp aria-label="Consultar por WhatsApp"><span aria-hidden="true">📲</span> Consultar</a>
@@ -71,12 +82,11 @@
         <button class="filter-btn" data-filter="regalos">Regalos</button>
       </div>
 
-      <p class="placeholder-note text-center" style="display:block; text-align:center; margin: 0 auto var(--space-md); width: fit-content;">Catálogo de ejemplo — nombres, precios e imágenes fácilmente editables.</p>
 
       <div class="grid grid--4" id="cumpleanos">
 
         <article class="product-card card" data-category="cumpleanos">
-          <div class="product-card__media"><span class="product-card__badge">Más vendido</span><img src="assets/images/illus-prod-torta.svg" alt="Kit topper de torta"></div>
+          <div class="product-card__media"><span class="product-card__badge">Más vendido</span><img src="assets/images/kit topper.jfif" alt="Kit topper de torta"></div>
           <div class="product-card__body">
             <span class="product-card__category">Cumpleaños</span>
             <h3>Kit topper de torta</h3>
@@ -89,7 +99,7 @@
         </article>
 
         <article class="product-card card" data-category="cumpleanos">
-          <div class="product-card__media"><img src="assets/images/illus-prod-pinata.svg" alt="Piñata temática"></div>
+          <div class="product-card__media"><img src="assets/images/piñata.jfif" alt="Piñata temática"></div>
           <div class="product-card__body">
             <span class="product-card__category">Cumpleaños</span>
             <h3>Piñata temática</h3>
@@ -102,7 +112,7 @@
         </article>
 
         <article class="product-card card" data-category="velas">
-          <div class="product-card__media"><img src="assets/images/illus-prod-velas.svg" alt="Set de velas decorativas"></div>
+          <div class="product-card__media"><img src="assets/images/vela.jfif" alt="Set de velas decorativas"></div>
           <div class="product-card__body">
             <span class="product-card__category">Velas</span>
             <h3>Set de velas decorativas</h3>
@@ -115,7 +125,7 @@
         </article>
 
         <article class="product-card card" data-category="accesorios">
-          <div class="product-card__media"><img src="assets/images/illus-prod-disfraz.svg" alt="Set de accesorios de fiesta"></div>
+          <div class="product-card__media"><img src="assets/images/accesorio.jfif" alt="Set de accesorios de fiesta"></div>
           <div class="product-card__body">
             <span class="product-card__category">Accesorios</span>
             <h3>Set de accesorios de fiesta</h3>
@@ -132,7 +142,7 @@
       <div class="grid grid--4 mt-lg" id="globos">
 
         <article class="product-card card" data-category="globos">
-          <div class="product-card__media"><span class="product-card__badge">Más vendido</span><img src="assets/images/illus-prod-arco.svg" alt="Arco de globos premium"></div>
+          <div class="product-card__media"><span class="product-card__badge">Más vendido</span><img src="assets/images/arco de globos.jfif" alt="Arco de globos premium"></div>
           <div class="product-card__body">
             <span class="product-card__category">Globos</span>
             <h3>Arco de globos premium</h3>
@@ -145,7 +155,7 @@
         </article>
 
         <article class="product-card card" data-category="globos">
-          <div class="product-card__media"><img src="assets/images/illus-prod-globos.svg" alt="Bolsa de globos surtidos"></div>
+          <div class="product-card__media"><img src="assets/images/globos.jfif" alt="Bolsa de globos surtidos"></div>
           <div class="product-card__body">
             <span class="product-card__category">Globos</span>
             <h3>Bolsa de globos surtidos</h3>
@@ -158,7 +168,7 @@
         </article>
 
         <article class="product-card card" data-category="decoracion">
-          <div class="product-card__media"><img src="assets/images/illus-cat-decoracion.svg" alt="Kit de decoración temática"></div>
+          <div class="product-card__media"><img src="assets/images/decoraciones.jfif" alt="Kit de decoración temática"></div>
           <div class="product-card__body">
             <span class="product-card__category">Decoración</span>
             <h3>Kit de decoración temática</h3>
@@ -171,7 +181,7 @@
         </article>
 
         <article class="product-card card" data-category="decoracion">
-          <div class="product-card__media"><img src="assets/images/illus-prod-mesa.svg" alt="Set de mesa temática"></div>
+          <div class="product-card__media"><img src="assets/images/mesa tematica (1).jpg" alt="Set de mesa temática"></div>
           <div class="product-card__body">
             <span class="product-card__category">Decoración</span>
             <h3>Set de mesa temática</h3>
@@ -188,7 +198,7 @@
       <div class="grid grid--4 mt-lg" id="graduaciones">
 
         <article class="product-card card" data-category="guirnaldas">
-          <div class="product-card__media"><img src="assets/images/illus-prod-guirnalda.svg" alt="Guirnalda de banderines"></div>
+          <div class="product-card__media"><img src="assets/images/banderin.jfif" alt="Guirnalda de banderines"></div>
           <div class="product-card__body">
             <span class="product-card__category">Guirnaldas</span>
             <h3>Guirnalda de banderines</h3>
@@ -201,7 +211,7 @@
         </article>
 
         <article class="product-card card" data-category="souvenirs">
-          <div class="product-card__media"><img src="assets/images/illus-prod-souvenir.svg" alt="Souvenirs personalizados"></div>
+          <div class="product-card__media"><img src="assets/images/souvenirs.jfif" alt="Souvenirs personalizados"></div>
           <div class="product-card__body">
             <span class="product-card__category">Souvenirs</span>
             <h3>Souvenirs personalizados</h3>
@@ -214,7 +224,7 @@
         </article>
 
         <article class="product-card card" data-category="regalos">
-          <div class="product-card__media"><img src="assets/images/illus-prod-regalo.svg" alt="Caja de regalo personalizada"></div>
+          <div class="product-card__media"><img src="assets/images/caja decorativa.jfif" alt="Caja de regalo personalizada"></div>
           <div class="product-card__body">
             <span class="product-card__category">Regalos</span>
             <h3>Caja de regalo personalizada</h3>
@@ -227,7 +237,7 @@
         </article>
 
         <article class="product-card card" data-category="regalos">
-          <div class="product-card__media"><img src="assets/images/illus-prod-personalizado.svg" alt="Cartel personalizado"></div>
+          <div class="product-card__media"><img src="assets/images/cartel decorativo.jpg" alt="Cartel personalizado"></div>
           <div class="product-card__body">
             <span class="product-card__category">Regalos</span>
             <h3>Cartel personalizado</h3>
@@ -252,7 +262,7 @@
         <h2>¿Preferís ver todo el catálogo junto?</h2>
         <p>Descargá el catálogo completo en PDF con todos nuestros productos y precios actualizados.</p>
         <div class="cta-final__actions">
-          <a href="[ENLACE DEL CATÁLOGO]" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Descargar catálogo</a>
+          <a href="assets/pdf/catalogo-lucesitas.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Descargar catálogo</a>
         </div>
       </div>
 
@@ -280,9 +290,9 @@
         <p>Cotillón, globos, decoración y artículos para fiestas en Paraguay. Creamos momentos felices para cada celebración.</p>
         <div class="footer__social">
           <a href="#" data-whatsapp aria-label="WhatsApp" target="_blank" rel="noopener noreferrer">📲</a>
-          <a href="[ENLACE DE INSTAGRAM]" aria-label="Instagram" target="_blank" rel="noopener noreferrer">📷</a>
-          <a href="[ENLACE DE FACEBOOK]" aria-label="Facebook" target="_blank" rel="noopener noreferrer">📘</a>
-          <a href="[ENLACE DE TIKTOK]" aria-label="TikTok" target="_blank" rel="noopener noreferrer">🎵</a>
+          <a href="https://www.instagram.com/fiestas_y_fantasias_lucesitas/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">📷</a>
+          <a href="https://www.facebook.com/p/Lucecitas-de-colores-cotillon-decoraci%C3%B3n-100054257900266/?locale=es_LA" aria-label="Facebook" target="_blank" rel="noopener noreferrer">📘</a>
+          <a href="https://www.tiktok.com/@lucesitascomercial" aria-label="TikTok" target="_blank" rel="noopener noreferrer">🎵</a>
         </div>
       </div>
       <div>
@@ -309,22 +319,22 @@
         <h4>Contacto</h4>
         <div class="footer__links">
           <a href="tel:+595994315939">📞 (0994) 315 939</a>
-          <a href="mailto:[CORREO ELECTRÓNICO]">✉️ [CORREO ELECTRÓNICO]</a>
+          <a href="mailto:luz090979@gmail.com">✉️ luz090979@gmail.com</a>
           <span>📍 14 de Mayo entre Moisés Bertoni y Javier Bogarín, Luque</span>
-          <span>🕐 Lun. a Sáb. 8:00 - 18:00 hs</span>
+          <span>🕐 Lun. a Sáb. 7:30 - 18:30 hs</span>
+          <span>🕐 Dom. 8:00 - 12:00 hs</span>
           <a href="contacto.html#mapa-sitio">Mapa del sitio</a>
         </div>
       </div>
     </div>
     <div class="footer__bottom">
       <span>© 2026 Lucesitas. Todos los derechos reservados.</span>
-      <span>Hecho por [NOMBRE Y APELLIDO DEL ESTUDIANTE] · Trabajo de Extensión – Universidad Americana – 2026</span>
+      <span>Hecho por Eusebio Aveiro · Trabajo de Extensión – Universidad Americana – 2026</span>
     </div>
   </div>
 </footer>
 
-<a href="#" class="whatsapp-float" data-whatsapp aria-label="Consultar por WhatsApp"><span aria-hidden="true">💬</span></a>
-
+<a href="#" class="whatsapp-float" data-whatsapp aria-label="Consultar por WhatsApp"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
 <script src="js/script.js"></script>
 </body>
 </html>

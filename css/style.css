@@ -832,6 +832,7 @@ p { color: var(--color-text-muted); }
   .footer__bottom { flex-direction: column; text-align: center; }
 }
 
+
 /* -------- WhatsApp flotante -------- */
 .whatsapp-float {
   position: fixed;
@@ -907,4 +908,18 @@ p { color: var(--color-text-muted); }
 @media (max-width: 640px) {
   .section { padding: var(--space-lg) 0; }
   .navbar__brand-tag { display: none; }
+}
+
+.video-embed {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.video-embed iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
 }
