@@ -240,3 +240,90 @@ function initContactForm() {
     }
   });
 }
+
+
+/* =========================================================
+   🎃 HALLOWEEN — Efectos decorativos (bloque aislado)
+   - No usa ni modifica funciones, variables ni listeners anteriores.
+   - Crea un único contenedor fijo con pointer-events: none.
+   - Si el usuario prefiere movimiento reducido, no se genera nada.
+   - Si algo fallara aquí, el resto del sitio sigue funcionando.
+   ========================================================= */
+(function () {
+  "use strict";
+  try {
+    if (document.querySelector(".hw-fx")) return;
+
+    var mq = window.matchMedia ? window.matchMedia("(prefers-reduced-motion: reduce)") : null;
+    if (mq && mq.matches) return;
+
+    var width = window.innerWidth || 1024;
+    var tier = width < 640 ? 0 : (width < 1024 ? 1 : 2); // móvil, tablet, escritorio
+    var batCount = [2, 4, 6][tier];
+    var emberCount = [8, 14, 22][tier];
+    var batMin = [24, 30, 34][tier];
+    var batMax = [36, 46, 58][tier];
+
+    function rand(min, max) { return min + Math.random() * (max - min); }
+
+    var BAT_SVG =
+      '<svg viewBox="0 0 64 32" aria-hidden="true" focusable="false">' +
+        '<g class="hw-bat__wing"><path d="M32 16C26 6 14 4 2 8c6 2 7 6 6 10 4-3 7-2 9 2 3-3 7-2 11 2z"/></g>' +
+        '<g transform="matrix(-1 0 0 1 64 0)"><g class="hw-bat__wing"><path d="M32 16C26 6 14 4 2 8c6 2 7 6 6 10 4-3 7-2 9 2 3-3 7-2 11 2z"/></g></g>' +
+        '<ellipse cx="32" cy="18" rx="4" ry="6"/>' +
+        '<path d="M28 13l1-6 3 4 3-4 1 6z"/>' +
+      '</svg>';
+
+    var EMBER_COLORS = ["#FFA94D", "#FF7A1A", "#FFD08A", "#B98CFF", "#8B4FE0"];
+
+    var fx = document.createElement("div");
+    fx.className = "hw-fx";
+    fx.setAttribute("aria-hidden", "true");
+
+    var frag = document.createDocumentFragment();
+
+    for (var i = 0; i < batCount; i++) {
+      var bat = document.createElement("div");
+      bat.className = "hw-bat hw-bat--" + (i % 2 === 0 ? "ltr" : "rtl");
+      bat.style.setProperty("--hw-y", rand(14, 72).toFixed(1) + "vh");
+      bat.style.setProperty("--hw-size", rand(batMin, batMax).toFixed(0) + "px");
+      bat.style.setProperty("--hw-dur", rand(16, 30).toFixed(1) + "s");
+      bat.style.setProperty("--hw-delay", rand(0, 9).toFixed(1) + "s");
+      bat.style.setProperty("--hw-amp", rand(18, 60).toFixed(0) + "px");
+      bat.style.setProperty("--hw-flap", rand(0.3, 0.5).toFixed(2) + "s");
+      bat.innerHTML = BAT_SVG;
+      frag.appendChild(bat);
+    }
+
+    for (var j = 0; j < emberCount; j++) {
+      var ember = document.createElement("span");
+      ember.className = "hw-ember";
+      ember.style.setProperty("--hw-x", rand(2, 98).toFixed(1) + "%");
+      ember.style.setProperty("--hw-s", rand(2.5, 5.5).toFixed(1) + "px");
+      ember.style.setProperty("--hw-c", EMBER_COLORS[Math.floor(Math.random() * EMBER_COLORS.length)]);
+      ember.style.setProperty("--hw-dur", rand(11, 22).toFixed(1) + "s");
+      ember.style.setProperty("--hw-delay", rand(0, 14).toFixed(1) + "s");
+      ember.style.setProperty("--hw-sway", rand(15, 50).toFixed(0) + "px");
+      frag.appendChild(ember);
+    }
+
+    fx.appendChild(frag);
+    document.body.appendChild(fx);
+
+    // Pausa las animaciones cuando la pestaña no está visible
+    document.addEventListener("visibilitychange", function () {
+      fx.classList.toggle("is-paused", document.hidden);
+    });
+
+    // Si el usuario activa "reducir movimiento" mientras navega, se retiran los efectos
+    if (mq) {
+      var onMotionChange = function (e) {
+        if (e.matches && fx.parentNode) fx.parentNode.removeChild(fx);
+      };
+      if (mq.addEventListener) mq.addEventListener("change", onMotionChange);
+      else if (mq.addListener) mq.addListener(onMotionChange);
+    }
+  } catch (err) {
+    /* Los efectos son opcionales: ante cualquier error no se afecta al sitio. */
+  }
+})();
